@@ -9,7 +9,7 @@ startTime = "16:25:00"
 # delayAfterStart -> After 10sec(delayAfterStart) it will enter in the while loop and wait for the moment when the time will become equal to startTime
 delayAfterStart = 10
 time.sleep(delayAfterStart)
-# want to send roll number in every 20 sec (spanOf)
+# spanOf -> want to send roll number in every 20 sec (spanOf)
 spanOf = 20
 while(1):
 	now = datetime.now()
